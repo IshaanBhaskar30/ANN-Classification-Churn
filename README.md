@@ -33,9 +33,9 @@ The dataset Churn_Modelling.csv contains 10,000 customer records from a bank, wi
 
 ->Encoded categorical variables:
 
-   o Gender → LabelEncoder
+    o Gender → LabelEncoder
 
-   o Geography → OneHotEncoder
+    o Geography → OneHotEncoder
 
 ->Saved all encoders (.pkl files) for inference use
 
@@ -49,17 +49,17 @@ The dataset Churn_Modelling.csv contains 10,000 customer records from a bank, wi
 
 ->Built a 3-layer ANN:
 
-   o 2 hidden layers: 64 and 32 neurons with ReLU activation
+    o 2 hidden layers: 64 and 32 neurons with ReLU activation
 
-   o 1 output layer with sigmoid activation for binary classification
+    o 1 output layer with sigmoid activation for binary classification
 
 ->Used Adam optimizer and binary crossentropy as loss function
 
 ->Implemented:
 
-   o EarlyStopping to avoid overfitting
+    o EarlyStopping to avoid overfitting
 
-   o TensorBoard for performance visualization
+    o TensorBoard for performance visualization
 
 ->Achieved ~88% accuracy on training and ~85% on validation data
 
@@ -75,11 +75,11 @@ The dataset Churn_Modelling.csv contains 10,000 customer records from a bank, wi
 
 ->Performed:
 
-   o Label encoding and one-hot encoding
+    o Label encoding and one-hot encoding
 
-   o Feature scaling
+    o Feature scaling
 
-   o Final churn probability prediction
+    o Final churn probability prediction
 
 ->Displayed prediction with a clear message based on threshold (0.5)
 
@@ -91,9 +91,9 @@ The dataset Churn_Modelling.csv contains 10,000 customer records from a bank, wi
 
 ->Dynamically:
 
-   o Encodes Gender and Geography
+    o Encodes Gender and Geography
 
-   o Applies saved StandardScaler
+    o Applies saved StandardScaler
 
    o Feeds data to the ANN model
 
